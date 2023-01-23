@@ -1,0 +1,35 @@
+.form
+{
+    border: 1px solid rgb(207, 206, 206);
+    border-radius:20px ;
+    margin: 40px;
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+
+}
+
+.form_input{
+    outline: none;
+    flex: 0.7;
+    height: 30spx;
+    width: 300px;
+    padding: 5px 5px;
+    border:  none;
+    background: none;
+    border-right: 1px solid rgb(207, 206, 206);
+    font-size: 16px;
+    color: whitesmoke;
+}
+.form_icon{
+    flex: 0.3;
+    width: 40px;
+    color: white;
+    text-align: center;
+    height: 12px;
+    font-size: 20px;
+}
+.form_button{
+    background: none;
+    border: none;
+}
