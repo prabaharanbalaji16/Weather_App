@@ -32,58 +32,58 @@ function Weather({city,icon,state,weather,temp,humidity,
           <div className="icon_and_temp">
             <div className="weather_icons">
               {
-                icon=="01d" ? <img src={oneD} alt="" className='weather_icon'/> :""
+                icon==="01d" ? <img src={oneD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="01n" ? <img src={oneN} alt="" className='weather_icon'/> :""
+                icon==="01n" ? <img src={oneN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="02d" ? <img src={twoD} alt="" className='weather_icon'/> :""
+                icon==="02d" ? <img src={twoD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="02n" ? <img src={twoN} alt="" className='weather_icon'/> :""
+                icon==="02n" ? <img src={twoN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="03d" ? <img src={threeD} alt="" className='weather_icon'/> :""
+                icon==="03d" ? <img src={threeD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="03n" ? <img src={threeN} alt="" className='weather_icon'/> :""
+                icon==="03n" ? <img src={threeN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="04d" ? <img src={fourD} alt="" className='weather_icon'/> :""
+                icon==="04d" ? <img src={fourD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="04n" ? <img src={fourN} alt="" className='weather_icon'/> :""
+                icon==="04n" ? <img src={fourN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="09d" ? <img src={nineD} alt="" className='weather_icon'/> :""
+                icon==="09d" ? <img src={nineD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="09n" ? <img src={nineN} alt="" className='weather_icon'/> :""
+                icon==="09n" ? <img src={nineN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="10d" ? <img src={tenD} alt="" className='weather_icon'/> :""
+                icon==="10d" ? <img src={tenD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="10n" ? <img src={tenN} alt="" className='weather_icon'/> :""
+                icon==="10n" ? <img src={tenN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="11d" ? <img src={elevenD} alt="" className='weather_icon'/> :""
+                icon==="11d" ? <img src={elevenD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="11n" ? <img src={elevenN} alt="" className='weather_icon'/> :""
+                icon==="11n" ? <img src={elevenN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="13d" ? <img src={thirteenD} alt="" className='weather_icon'/> :""
+                icon==="13d" ? <img src={thirteenD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="13n" ? <img src={thirteenN} alt="" className='weather_icon'/> :""
+                icon==="13n" ? <img src={thirteenN} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="50d" ? <img src={fiftyD} alt="" className='weather_icon'/> :""
+                icon==="50d" ? <img src={fiftyD} alt="" className='weather_icon'/> :""
               }
               {
-                icon=="50n" ? <img src={fiftyN} alt="" className='weather_icon'/> :""
+                icon==="50n" ? <img src={fiftyN} alt="" className='weather_icon'/> :""
               }
               
             </div>
