@@ -9,7 +9,6 @@ function form({handler}) {
   }
   return (
     <div className='form'>
-      <h1>Testing</h1>
         <form onSubmit={handler} name='form'>
             <input name='city' className='form_input'/>
             <button type="submit" className='form_button'>
