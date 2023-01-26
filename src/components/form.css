@@ -33,3 +33,31 @@
     background: none;
     border: none;
 }
+
+@media only screen and (max-width:600px)
+{
+    .form_input
+    {
+        width: 200px;
+        flex: 0.8;
+    }
+    .form_icon{
+        flex: 0.2;
+        width: 20px;
+    }
+
+}
+
+@media only screen and (max-width:400px)
+{
+    .form_input
+    {
+        width: 170px;
+        flex: 0.9;
+    }
+    .form_icon{
+        flex: 0.1;
+        width: 10px;
+    }
+
+}

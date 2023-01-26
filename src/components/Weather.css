@@ -121,3 +121,43 @@
 {
     background: rgba(143, 139, 139, 0.308);
 }
+
+@media only screen and (max-width:912px)
+{
+    .icon_and_temp{
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width:600px)
+{
+    .weather_details
+    {
+        width: 70%;
+    }
+    .weather_temp
+    {
+        margin: 0 30px;
+        padding:20px 20px 20px 20px;
+        
+    }
+    .weather_deg
+    {
+        font-size: 30px !important;
+    }
+    .span
+    {
+        font-size: 16px;
+        margin: 10px 0px;
+        padding: 10px 10px;
+    }
+}
+
+@media only screen and (max-width:400px)
+{
+    .span
+    {
+        font-size: 12px;
+    }
+}

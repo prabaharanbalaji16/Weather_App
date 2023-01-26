@@ -22,6 +22,12 @@ import fiftyN from '../openweathermap/50n.svg';
 
 function Weather({city,icon,state,weather,temp,humidity,
                   pressure,sunrise,sunset,wind}) {
+
+    temp = Math.floor(temp);
+    const rise = new Date(sunrise *1000);
+    const set = new Date(sunset *1000);
+    wind = (wind*1000)/3600;
+
   return (
     <div className='weather'>
       {
@@ -88,19 +94,19 @@ function Weather({city,icon,state,weather,temp,humidity,
               
             </div>
             <div className="weather_temp">
-              <h1 className='weather_deg'>{temp}&deg; C</h1>
+              <h1 className='weather_deg'>{temp}°C</h1>
               <h1 className='weather_city'>{weather}</h1>
             </div>
           </div>
           <div className='weather_miscs'>
             <div className='span'>
               <span className='weather_prop'>Wind Speed</span>
-              <span className='weather_val'>{wind}</span>
+              <span className='weather_val'>{wind} <i>k/h</i></span>
             </div> 
 
             <div className='span'>
               <span className='weather_prop'>Pressure</span>
-              <span className='weather_val'>{pressure}</span>
+              <span className='weather_val'>{pressure} <i>pa</i></span>
             </div> 
 
             <div className='span'>
@@ -110,12 +116,12 @@ function Weather({city,icon,state,weather,temp,humidity,
 
             <div className='span'>
               <span className='weather_prop'>Sunrise</span>
-              <span className='weather_val'>{sunrise}</span>
+              <span className='weather_val'>{rise.getHours()}:{rise.getMinutes()}</span>
             </div> 
 
             <div className='span'>
               <span className='weather_prop'>Sunset</span>
-              <span className='weather_val'>{sunset}</span>
+              <span className='weather_val'>{set.getHours()}:{set.getMinutes()}</span>
             </div> 
             
           </div>
