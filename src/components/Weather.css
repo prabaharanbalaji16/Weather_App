@@ -4,6 +4,10 @@
     color: white;
     text-align: center;
 }
+::-webkit-scrollbar
+{
+    display: none;
+}
 .weather_details
 {
     width: 60%;
@@ -29,6 +33,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .weather_icons
 {
@@ -127,11 +132,13 @@
     .icon_and_temp{
         justify-content: center;
     }
-
 }
 
 @media only screen and (max-width:600px)
 {
+    .weather_details{
+        height: fit-content;
+    }
     .weather_details
     {
         width: 70%;
@@ -160,4 +167,9 @@
     {
         font-size: 12px;
     }
+    .weather_details{
+        height: 500px;
+        overflow-y: scroll;
+    }
+    
 }
